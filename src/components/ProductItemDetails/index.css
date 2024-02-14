@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.main-img {
+  height: 500px;
+  width: 350px;
+  margin-left: 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.success-con {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .success-con {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.text-con {
+  margin-left: 20px;
+  width: 400px;
+}
+
+.ul-similar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .ul-similar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.si-heading {
+  margin-top: 50px;
+  font-size: 30px;
+  color: #1e293b;
+  margin-left: 50px;
+}
+
+.failure-img {
+  width: 50%;
+}
+
+.product-item-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0px;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.add-btn {
+  padding: 5px;
+  width: 80px;
+  height: 25px;
+  background-color: #3b82f6;
+  border-style: none;
+  outline: none;
+  color: white;
+  font-size: 9px;
+  border-radius: 4px;
+  font-family: 'roboto';
+  font-weight: 600;
+}

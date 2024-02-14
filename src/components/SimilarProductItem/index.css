@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.similar-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.rating-con {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  width: 55px;
+  height: 35px;
+  justify-content: space-evenly;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.price-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.similar-heading {
+  font-size: 15px;
+  font-weight: 900;
+  color: #1e293b;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.brand {
+  color: #616e7c;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.li-container {
+  width: 200px;
+  list-style-type: none;
+  margin-right: 10px;
+  margin-left: 10px;
+}
